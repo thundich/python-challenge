@@ -34,3 +34,5 @@
 	- Python 
 	
 	- Files included with repository include the CSV file code, README, Python Program main.py, and Text Output File from Python Script. 
+
+  - One of the limitations that is found in the repository is the large dataset in the CSV file codes. 
