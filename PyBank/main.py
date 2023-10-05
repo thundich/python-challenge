@@ -1,4 +1,4 @@
-#Importing the necessary modules/libraries
+# Importing the necessary modules/libraries
 import os
 import csv
 
@@ -17,7 +17,6 @@ DollarAmount = 0
 Dates = []
 # Define ProfilLoss list
 ProfitLoss = []
-
 # Read the CSV file
 with open(budget_data, "r") as BudgetFile:
     BudgetReader = csv.reader(BudgetFile, delimiter = ",")
@@ -35,8 +34,6 @@ with open(budget_data, "r") as BudgetFile:
     TotalMonths +=1
     TotalProfitLoss += RowAmount
     PreviousDollarAmount = RowAmount
-    Dates.append(Date)
-   # ProfitLoss.append(0)
 
     # Set up loop to read the rest of data rows
     for row in BudgetReader: 

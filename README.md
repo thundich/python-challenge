@@ -16,6 +16,12 @@
         - The average of the changes in "Profit/Losses" over the entire period
         - The greatest increase in profits (date and amount) over the entire period
         - The greatest decrease in losses (date and amount) over the entire period
+
+    - Note: The screen formatting is intentional as I was experimenting with display configuration. 
+      - Greatest Increase in Profits is intended to show with dollar sign, comma, and decimal point. 
+      - Greatest Decrease in Profits is intended to show dollar and negative sign. 
+      - The output file is not using formatting. 
+
   - PyPoll: Using the dataset, election_data.csv, that is composed of three columns: Voter ID, County, and Candidate and creating a Python script that analyzes the records that calculates each of the following:
         - The total number of votes cast
         - A complete list of candidates who received votes
@@ -27,4 +33,4 @@
 ## Installation and Configuration 
 	- Python 
 	
-	- Files included with repository include the CSV file code, README, and Text Files from Python Script. 
+	- Files included with repository include the CSV file code, README, Python Program main.py, and Text Output File from Python Script. 
